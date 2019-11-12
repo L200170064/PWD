@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+		<title> Form </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/table-style.css" rel='stylesheet' type='text/css' />
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+        <link href="css/font-awesome.css" rel='stylesheet' type='text/css' />
+        <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	</head>
+	
+	<body>
+        <h2><marquee>Free Registration</marquee>
+        <form action="proses.php" method="POST" name="form">
+            <table width="68%" border="2" align="center" cellpadding="0">
+                <tr>
+                    <td class="td" width="15%">Nama</td>
+                    <td width="2%">:</td>
+                    <td width="83%"><input name="txtNama" type="text" id="txtNama"></td>
+                </tr>
+                <tr>
+                    <td>Tgl Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <input name="txtTgl" type="text" id="txtTgl" size="4" maxlength="2">
+                        /
+                        <input name="txtBulan" type="text" id="txtBulan" size="4" maxlength="2">
+                        /
+                        <input name="txtTahun" type="text" id="txtTahun" size="8" maxlength="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td">Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="txtAlamat" cols="40" rows="2" id="txtAlamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="td">Kota</td>
+                    <td>:</td>
+                    <td><input name="txtKota" type="text" id="txtKota"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input name="btnKirim" type="submit" id="btnKirim" value="Kirim"></td>
+                    <td><input name="btnCencel" type="reset" id="btnCencel" value="Cencel"></td>
+                </tr>    
+            </table>
+        </form>
+	</body>
+	
+</html>
