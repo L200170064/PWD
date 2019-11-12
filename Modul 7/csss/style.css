@@ -1,0 +1,88 @@
+
+/*-- border --*/
+
+p.dotted{
+	border-style:dotted;
+}
+
+p.dashed{
+	border-style:dashed;
+}
+
+p.solid{
+	border-style:solid;
+}
+
+p.double{
+	border-style:double;
+}
+
+p.groove{
+	border-style:groove;
+}
+
+p.ridge{
+	border-style:ridge;
+}
+
+p.inset{
+	border-style:inset;
+}
+
+p.outset{
+	border-style:outset;
+}
+
+
+/*-- background --*/
+
+#body{
+	background-image: url(../images/p.png);
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+/*-- hyperlink --*/
+
+body{
+	font-variant:small-caps;
+}
+
+a:link{
+	text-decoration:none;
+	color:#000000;
+	font-weight:bold;
+}
+
+a:visited{
+	text-decoration:none;
+	color:#09ff00;
+	background-color:#ff3c00;
+}
+
+a:active{
+	text-decoration:none;
+	color:#ffee00;
+	background-color:#ff3c00;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#ffffff;
+	background-color:#ff3c00;
+}
+
+
+/*-- table --*/
+
+table {
+	border-collapse: collapse;
+}
+  
+table, td, tr {
+	border: 1px solid black;
+}
