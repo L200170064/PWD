@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title> Pengambil Keputusan </title>
+		<script language="javascript">
+		function lihat(){
+		var nilai=parseFloat (document.form.n.value);
+			if(nilai>100){
+			alert(" Nilai Tidak Boleh Lebih dari 100");
+			} else if (nilai>=80){
+			hasilA = "A";
+			document.form.hasil.value=hasilA;
+			} else if (nilai>=70) {
+			hasilB = "B";
+			document.form.hasil.value=hasilB;
+			} else if (nilai>=59) {
+			hasilC = "C";
+			document.form.hasil.value=hasilC;
+			} else if (nilai>=49) {
+			hasilD = "D";
+			document.form.hasil.value=hasilD;
+			} else {
+			hasilE = "E";
+			document.form.hasil.value=hasilE;
+			}   
+		}
+		</script>
+	</head>
+	<body>
+		<form name="form">
+			<h1 align="center"> Pengecekan Sederhana </h1>
+			<table align="center">
+				<tr>
+					<td>Nilai</td>
+					<td>:</td>
+					<td><input type="text" size="11" name="n"></td>
+				</tr>
+				<tr>
+					<td>Hasilnya</td>
+					<td>:</td>
+					<td><input type="text" size="11" name="hasil" readonly></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="button" value="Lihat" onclick="lihat()"></td>
+					<td><input type="reset" value="Ulang"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
