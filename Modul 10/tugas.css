@@ -1,0 +1,14 @@
+body 
+ { 
+ background: url('Jellyfish.jpg'); 
+ } 
+ h2 
+ {font-family:high tower text; 
+ text-align:center 
+ } 
+ table 
+ {background: orange;
+ } 
+ .td { 
+ font-weight:bold; 
+ } 
